@@ -132,3 +132,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Enable the workaround for the speed parameter mismatch between RGBLIGHT and
 // RGB Matrix, so that the speed slider in VIA behaves in a more useful way.
 #define VIA_CUSTOM_LIGHTING_ENABLE
+
+// Fix annoying modkey behavior
+//#define PERMISSIVE_HOLD
+//#define HOLD_ON_OTHER_KEY_PRESS
+//#define IGNORE_MOD_TAP_INTERRUPT
